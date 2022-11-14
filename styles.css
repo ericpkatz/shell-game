@@ -1,0 +1,21 @@
+body {
+  font-family: verdana;
+}
+
+#board {
+  display: flex;
+  justify-content: space-around;
+}
+#board > div {
+  border: solid 1px grey;
+  height: 4rem;
+  width: 4rem;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
